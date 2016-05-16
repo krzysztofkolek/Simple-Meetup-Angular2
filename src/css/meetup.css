@@ -393,3 +393,49 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #0f1721; 
+  font-size: 16px !important;
+  line-height: 1.45;
+  font-family: "Graphik Meetup",helvetica,arial,sans-serif;
+}
+body > footer > div > div > div > ul > li > a {
+  color: gray !important;
+  text-decoration: none !important; 
+}
+body > footer > div > div > div > ul > li > a:hover, 
+body > footer > div > div > div > ul > li > a:visited, 
+body > footer > div > div > div > ul > li > a:link, 
+body > footer > div > div > div > ul > li > a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+body > footer > div > div > div > ul > li:nth-child(1) > a {  
+  display: block;
+  color: white !important;
+}
+
+body > footer > div > div > div > ul > li:nth-child(1) > a:nth-child(1) {
+  font-weight: bold;
+  float: left;
+  margin-right: 550px;
+}
+body > footer > div > div > div > ul > li:nth-child(1) > a:nth-child(2) {
+    margin-right: -50px;
+}
+body > footer > div > div > div > ul > li:nth-child(2) {
+  display: block;
+}
+
